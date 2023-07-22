@@ -1,6 +1,7 @@
 ---
 title: New York
 publishDate: 22 Jul 2023
+teaserImage: /assets/blog/720px-liberty02.jpg
 author: Ben
 description: New York, often called New York City[a] or NYC, is the most
   populous city in the United States.

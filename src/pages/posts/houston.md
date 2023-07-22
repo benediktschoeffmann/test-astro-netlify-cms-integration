@@ -1,6 +1,7 @@
 ---
 title: Houston
 publishDate: 22 Jul 2023
+teaserImage: /assets/blog/buildings-city-houston-skyline-1870617.jpg
 author: Ben
 description: "Houston (/ˈhjuːstən/ (listen); HEW-stən) is the most populous city
   in Texas and in the Southern United States. "

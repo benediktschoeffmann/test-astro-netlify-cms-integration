@@ -1,6 +1,8 @@
 ---
 title: Dallas
 publishDate: 22 Jul 2023
+teaserImage: /assets/blog/fort_worth_intermodal_transportation_center_cropped.jpg
+author: Ben
 description: Dallas (/ˈdæləs/) is a city in Texas and the most populous in the
   Dallas–Fort Worth metroplex, the fourth-largest metropolitan area in the
   United States at 7.5 million people.
