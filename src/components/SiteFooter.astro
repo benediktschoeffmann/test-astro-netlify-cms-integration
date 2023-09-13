@@ -1,0 +1,23 @@
+---
+import CallToAction from "./CallToAction.astro";
+
+const currentYear = new Date().getFullYear();
+const heading = "Call to Action";
+const url = "mailto:carina.hladik@gmail.com";
+const linkText = "Do it!";
+---
+
+<footer>
+    <CallToAction
+        heading={heading}
+        url={url}
+        linkText={linkText}
+    />
+    <section class="py-8">
+        <div class="container">
+            <p>
+                &copy; {currentYear} - <a href="mailto:galahad.instruments@gmail.com">Galahad Design</a>
+            </p>
+        </div>
+    </section>
+</footer>
