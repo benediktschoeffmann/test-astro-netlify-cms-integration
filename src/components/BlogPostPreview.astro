@@ -7,8 +7,8 @@ const { post } = Astro.props;
 ---
 
 <article class="post-preview">
+	<img class="" src={post.frontmatter.teaserImage}/>
 	<header>
-		<img src={post.frontmatter.teaserImage}/>
 		<p class="publish-date">{post.frontmatter.publishDate}</p>
 		<a href={post.url}><h1 class="title">{post.frontmatter.title}</h1></a>
 	</header>
@@ -25,6 +25,18 @@ const { post } = Astro.props;
 		padding-bottom: 2rem;
 		margin-bottom: 2rem;
 		border-bottom: 4px solid var(--theme-divider);
+		height: 100%;
+		position: relative;
+	}
+
+	.teaserImage {
+		height: 100%;
+		left: 0;
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
 	}
 
 	header {
