@@ -10,9 +10,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
+    "accessible-astro-components": "^2.2.0",
     "astro": "1.9.2"
   },
   "dependencies": {
+    "@astrojs/tailwind": "^5.0.0",
     "astro-netlify-cms": "^0.5.2"
   }
 }
